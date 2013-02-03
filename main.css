@@ -85,13 +85,32 @@ content {
 }
 
 .listPreview  li .listImg {
-	width:250px;
+	width: 250px;
+	height: 160px;
 	float: left;
 	margin: 15px 20px 15px 20px;
+	overflow: hidden;
+	white-space: nowrap;
+	font-weight: 0;
+	position: relative;
 }
-.listPreview  li .listImg img {
-	width:230px;
+.listPreview  li .listImg a {
+	display: inline-block;
+	vertical-align: top;
+	position: relative;
+	left:0;
+	transition: 1s left .3s;
+}
 
+.listPreview  li:hover .listImg a {
+	left:-250px;
+	transition: 1s left .3s;
+}
+
+.listPreview  li .listImg img {
+	width: 230px;
+	height: 160px;
+	margin:0 10px;
 }
 
 .listPreview  li .listDescr {
@@ -106,6 +125,7 @@ content {
 .listPreview  li.right .listDescr {
 	margin: 10px 250px 0 20px;
 }
+
 
 /*****************/
 
