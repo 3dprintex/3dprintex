@@ -100,11 +100,17 @@ content {
 	position: relative;
 	left:0;
 	transition: 1s left .3s;
+	-webkit-transition: 1s left .3s;
+    -moz-transition: 1s left .3s;
+    -o-transition: 1s left .3s;
 }
 
 .listPreview  li:hover .listImg a {
 	left:-250px;
 	transition: 1s left .3s;
+	-webkit-transition: 1s left .3s;
+    -moz-transition: 1s left .3s;
+    -o-transition: 1s left .3s;
 }
 
 .listPreview  li .listImg img {
@@ -171,13 +177,17 @@ footer {
 	font-size: 12px;
 	color: white;
 	transition: .7s top .3s;
-
+	-webkit-transition: .7s top .3s;
+    -moz-transition: .7s top .3s;
+    -o-transition: .7s top .3s;
 }
 .metroTooltip-text i {
 	height: 25px;
 	display: block;
 }
 .metroTooltip:hover .metroTooltip-text {
-	top: 0;
 	transition: .7s top .3s;
+	-webkit-transition: .7s top .3s;
+    -moz-transition: .7s top .3s;
+    -o-transition: .7s top .3s;
 }
