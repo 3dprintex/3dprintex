@@ -119,10 +119,14 @@ content {
 	margin: 3px 0;
 	padding: 0;
 }
+.listPreview  li.right h3  {
+	text-align: right;
+}
 
 .listPreview  li p {
 	padding: 0;
 	margin: 0;
+	text-align: justify;
 }
 
 .listPreview  li .listImg {
@@ -132,7 +136,7 @@ content {
 	margin: 15px 20px 15px 20px;
 	overflow: hidden;
 	white-space: nowrap;
-	font-weight: 0;
+	font-size: 0;
 	position: relative;
 }
 .listPreview  li .listImg a {
@@ -218,6 +222,7 @@ footer {
 	border:20px solid #464646;
 	border-width: 10px 0 0 0;
 	color: white;
+	padding: 5px 60px 40px;
 }
 footer a {
 	margin: 20px;
@@ -230,7 +235,14 @@ footer img {
 	border:1px solid gray;
 }
 
-
+footer h3 {
+	text-align: center;
+	font-weight: bold;
+}
+footer p {
+	text-indent: 15px;
+	
+}
 /*****************/
 /***************/
 
@@ -249,7 +261,7 @@ footer img {
 		display: block;
 		width: 100%;
 		height: 100%;
-		font-size: 14.px;
+		font-size: 14px;
 		color: white;
 		transition: .7s top .3s;
 		-webkit-transition: .7s top .3s;
